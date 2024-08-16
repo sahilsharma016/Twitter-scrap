@@ -24,7 +24,7 @@ username_field = driver.find_element(By.CLASS_NAME,"r-30o5oe")
 time.sleep(5)
 
 
-username_field.send_keys("@Don418767293930")
+username_field.send_keys("enter your email/userid")
 
 driver.implicitly_wait(3)
 
@@ -34,7 +34,7 @@ time.sleep(5)
 password_field = driver.find_element(By.NAME,"password") 
 
 
-password_field.send_keys("Sahil@123")
+password_field.send_keys("enter your password")
 time.sleep(3)
 
  # Submit the login form (assuming pressing "Enter" submits the form)
